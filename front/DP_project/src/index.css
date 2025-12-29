@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+:root {
+  /* Modern Dark Theme - Professional & Vibrant */
+
+  /* Primary Colors - Indigo/Purple (Modern Tech) */
+  --color-primary: #6366F1;        /* Bright Indigo - main interactive */
+  --color-primary-dark: #4F46E5;   /* Deep Indigo */
+  --color-primary-light: #818CF8;  /* Light Indigo */
+  --color-primary-glow: #6366F1;   /* Glow effect color */
+
+  /* Secondary Colors - Teal (Medical/Tech) */
+  --color-secondary: #14B8A6;      /* Teal */
+  --color-secondary-dark: #0D9488; /* Dark Teal */
+  --color-secondary-light: #2DD4BF; /* Light Teal */
+
+  /* Accent Colors - Pink (Vibrant Highlights) */
+  --color-accent: #F472B6;         /* Bright Pink */
+  --color-accent-light: #F9A8D4;   /* Light Pink */
+  --color-accent-dark: #EC4899;    /* Deep Pink */
+
+  /* Background Colors - Deep Dark Theme */
+  --color-bg-primary: #0A0E27;     /* Very Dark Navy (almost black) */
+  --color-bg-secondary: #151B3D;   /* Dark Navy */
+  --color-bg-tertiary: #1E2749;    /* Medium Dark Blue */
+  --color-bg-elevated: #252D54;    /* Elevated cards/modals */
+  --color-bg-light: #ffffff;       /* White for contrast areas */
+  --color-bg-hover: #2A3358;       /* Hover state */
+
+  /* Text Colors - High Contrast */
+  --color-text-primary: #F9FAFB;   /* Almost White - main text */
+  --color-text-secondary: #D1D5DB; /* Light Grey - secondary text */
+  --color-text-light: #9CA3AF;     /* Medium Grey - muted text */
+  --color-text-on-light: #0A0E27;  /* Dark - text on light backgrounds */
+  --color-text-accent: #F472B6;    /* Pink - highlighted text */
+
+  /* Status Colors */
+  --color-success: #10B981;        /* Emerald Green */
+  --color-success-light: #D1FAE5;
+  --color-success-dark: #059669;
+  --color-error: #EF4444;          /* Red */
+  --color-error-light: #FEE2E2;
+  --color-error-dark: #DC2626;
+  --color-warning: #F59E0B;        /* Amber */
+  --color-warning-light: #FEF3C7;
+  --color-warning-dark: #D97706;
+  --color-info: #3B82F6;           /* Blue */
+  --color-info-light: #DBEAFE;
+
+  /* Border Colors */
+  --color-border: #2A3358;         /* Subtle dark borders */
+  --color-border-light: #374151;   /* Light borders */
+  --color-border-focus: #6366F1;   /* Focus/active borders */
+
+  /* Shadow & Glow Effects */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+  --shadow-glow-teal: 0 0 20px rgba(20, 184, 166, 0.3);
+  --shadow-glow-pink: 0 0 20px rgba(244, 114, 182, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+}
