@@ -284,3 +284,24 @@ Academic project for algorithms course - educational purposes only.
 ---
 
 **Need Help?** Check the troubleshooting section or review the backend/frontend console logs for error messages.
+
+
+## Contributors <a name = "contributors"></a>
+<table align="center">
+  <tr>
+    <td align="center">
+    <a href="https://github.com/Karim-Mohamed-Elsayed" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/183163245?v=4" width="100px;" alt="Karim Mohamed"/>
+    <br />
+    <sub><b>Karim Mohamed</b></sub></a>
+    </td>
+     <td align="center">
+    <a href="https://github.com/David-Amir-18" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/183446535?v=4" width="100px;" alt="David Amir"/>
+    <br />
+    <sub><b>David Amir</b></sub></a>
+    </td>
+    
+    
+  </tr>
+ </table>
